@@ -1,0 +1,80 @@
+{
+  "unidade_1_planta": {
+    "A": [
+      [
+        -666.6666666666667,
+        -70.83333333333334
+      ],
+      [
+        202.38095238095238,
+        -0.3571428571428571
+      ]
+    ],
+    "B": [
+      [
+        833.3333333333334
+      ],
+      [
+        0.0
+      ]
+    ],
+    "C": [
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "polos": [
+      -644.4086366834565,
+      -22.615172840353143
+    ],
+    "tau_eletrico_exato_ms": 1.5518103623605148,
+    "tau_mecanico_exato_ms": 44.21810114206426,
+    "tau_e_aprox_ms": 1.4999999999999998,
+    "tau_m_aprox_ms": 46.50519031141869,
+    "posto_ctrb": 2,
+    "posto_obsv": 2,
+    "i_ss_A": 3.7352941176470584,
+    "V_ss_V": 41.23823529411764,
+    "folga_V": 6.7617647058823565,
+    "amostras_por_tau_m": 22.10905057103213
+  },
+  "unidade_2_controle_com_aw": {
+    "erro_regime_rad": 0.0041094224033654675,
+    "sobressinal_pct": 30.768563331322913,
+    "t_acomodacao_ms": 448.0,
+    "tensao_max_V": 15.528176589409538,
+    "corrente_max_A": 7.681365934246969,
+    "integrador_max": 6.963052880105683
+  },
+  "unidade_2_controle_sem_aw": {
+    "erro_regime_rad": 0.007417929043535512,
+    "sobressinal_pct": 44.79544407453847,
+    "t_acomodacao_ms": 448.0,
+    "tensao_max_V": 16.312722112258236,
+    "corrente_max_A": 7.681780064751463,
+    "integrador_max": 10.80592704541692
+  },
+  "unidade_3_supervisor_v0": "{'estados_alcancaveis': 4, 'total_estados_modelo': 4, 'transicoes_exploradas': 128, 'violacoes_count': 4, 'primeiro_contraexemplo': ('REQ-SAFE-AA-001', [('OCIOSO', Entradas(mao_proxima=False, comando_partir=True, rearme_operador=False, falha_sensor=False, vel_excedida=False), 'MOVENDO', Saidas(torque_habilitado=True, velocidade_limitada=True, alarme=False)), ('MOVENDO', Entradas(mao_proxima=True, comando_partir=True, rearme_operador=False, falha_sensor=False, vel_excedida=False), 'MOVENDO', Saidas(torque_habilitado=True, velocidade_limitada=True, alarme=False))]), 'vivacidade_req_003_ok': True}",
+  "unidade_3_supervisor_v1": {
+    "estados_alcancaveis": 4,
+    "total_estados_modelo": 4,
+    "transicoes_exploradas": 128,
+    "violacoes_count": 0,
+    "primeiro_contraexemplo": null,
+    "vivacidade_req_003_ok": true
+  },
+  "unidade_3_prazos_100ms": {
+    "combinacoes_verificadas": 84,
+    "pior_caso_total_ms": 31.96,
+    "margem_seguranca_ms": 68.04,
+    "violacoes_prazo_100ms": 0
+  },
+  "unidade_4_sil_codegen": {
+    "gcc_compilado": "Aviso (GCC não encontrado no PATH): [WinError 2] O sistema não pode encontrar o arquivo especificado",
+    "amostras_testadas": 2000,
+    "erro_max_absoluto_V": 0.0,
+    "epsilon_maquina_double": 2.220446049250313e-16,
+    "razao_erro_epsilon": 0.0
+  }
+}
