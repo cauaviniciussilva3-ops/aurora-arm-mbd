@@ -1,4 +1,3 @@
-```markdown
 # Operação Linha Viva: Design Baseado em Modelos (MBD) para o Braço Colaborativo AuroraArm
 
 Repositório técnico desenvolvido por **Cauã Vinícius Porto Silva** para a disciplina **Model Based Design for Cyber-Physical Systems (UniFECAF)**[cite: 12].
@@ -10,11 +9,9 @@ Este projeto implementa o fluxo completo de **Design Baseado em Modelos (MBD)** 
 3. **Unidade 3:** Formalização de requisitos de segurança colaborativa (**ISO/TS 15066** e **IEC 61508**), verificação formal exaustiva (BFS) em máquina de estados finitos com geração de contraexemplo na versão preliminar (`v0`), validação da versão corrigida (`v1`), geração de suíte de testes por percurso de grafo e verificação exaustiva de prazos de tempo real ($\le 100\text{ ms}$ sob atraso de sensor de até $20\text{ ms}$ e jitter de $2\text{ ms}$)[cite: 12, 18].
 4. **Unidade 4:** Derivação simbólica via `SymPy` com verificação de resíduo algébrico identicamente nulo, geração automática de código C embarcado para **ARM Cortex-M4 (32 bits com FPU)** com cabeçalho de rastreabilidade, teste de equivalência numérica *Software-in-the-Loop* (SIL) e matriz de rastreabilidade completa[cite: 12, 18].
 
----
 
 ## Estrutura do Repositório
 
-```text
 aurora-arm-mbd/
 ├── aurora_arm/
 │   ├── __init__.py                 # Inicialização do pacote Python
@@ -214,16 +211,3 @@ Em conformidade com as normas **ISO/TS 15066** e **IEC 61508**:
 
 * **O que ainda seria exigido para homologação industrial final:** A qualificação formal da cadeia de ferramentas (gerador simbólico e compilador), verificação independente por equipe distinta da equipe de desenvolvimento e testes *Hardware-in-the-Loop* (HIL) e em bancada física com o escâner de segurança real acoplado.
 
-
-
-```
-
-### Como atualizar no GitHub (2 passos):
-1. Substitua o conteúdo de `README.md` no VS Code pelo texto acima (dica: use o botão **Copiar** no canto superior direito do bloco de código acima para não vir nenhum caractere extra!) e salve (`Ctrl + S`).
-2. Rode no terminal do VS Code:
-```bash
-git add README.md
-git commit -m "Corrige formatacao das tabelas e formulas no README"
-git push
-
-```
